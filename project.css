@@ -1,0 +1,243 @@
+* {padding: 0; margin: 0;}
+
+header {width: 1500px;}
+header .kiri img { padding: 10px; float: left; margin-bottom: 20px;}
+
+header .kanan {float: left; margin-left: 500px; margin-top: 20px;}
+header .kanan img {width: 15px;}
+
+menu ul li {text-decoration: none; 
+			padding: 0 35px; 
+			list-style: none; 
+			float: left;
+			margin-top: 20px;
+			}
+
+menu li:hover {color: skyblue; }
+
+menu ul li ul {display: none; 
+			  position: absolute;}
+
+menu ul li:hover > ul {display: block;}
+
+menu {position: relative;
+	margin-top: 30px; }
+
+menu ul li ul li {float: none; 
+				 position: relative; 
+				 border-bottom: 1px solid black;
+				 padding: 1px;}
+
+menu ul li a {text-decoration: none; color: black; float: left;}
+menu ul li a:hover {color: skyblue;}
+
+.atas {width: 100%;}
+.atas img {width: 100%; padding: auto; position: relative; height: auto;}
+.atas h1 {position: absolute; top: 40%; left: 40%; font-size: 50px; color: white; height: auto; text-align: center; font-family: "Nothing You Could Do", cursive; color : blueviolet;}
+.atas h2 {position: absolute; bottom: 40%; left: 25%; font-size: 35px; color: white; height: auto; text-align: center; font-family: "Nothing You Could Do", cursive; color : skyblue;}
+.explorebutt{position: absolute; bottom: 25%; left: 46%; padding: 15px;}
+.explorebutt {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.explorebutt:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+.searchbar {width: 1300px; background: rgba(100, 50, 100, 1.0); margin-bottom: 50px;}
+.searchbar {padding: 100px; font-size: 25px; float: left;}
+.searchbar h3 { margin-right: 5px;}
+.searchbar input[type=text] {margin: 8px 0; width: 30%%; padding: 12px 20px; box-sizing: border-box; margin-right: 10px;}
+.searchbar input[type=text]:focus {background-color: lightblue;}
+.searchbar input[type=date] {margin: 8px 0; width: 20%; padding: 11px 20px; box-sizing: border-box; margin-right: 10px;}
+.searchbar select {margin-right: 15px; margin: 8px 0; width: 15%; padding: 13px 20px; box-sizing: border-box;}
+.searchbar button[type=submit] {background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;}
+ .searchbar button[type=submit] {margin-left: 15px;}
+
+
+.popdestination {text-align: center; width: 1300px; padding: 100px; margin-top: 150px; background: white;}
+.popdestination h4 {font-size: 30px; margin-top: 15px;}
+.popdestination p {font-size: 15px;}
+
+
+.newsletter {width: 1300px;}
+.newsletter {padding: 100px; background-color: blue; margin-top: 400px;}
+.newsletter .newskiri {width: 50%%; float: left; }
+.newsletter .newskiri h5 {font-size: 25px;}
+.newsletter .newskiri p {margin-bottom: 20px;}
+.newsletter .newskanan {float: right; width: 50%; margin-bottom: 50px;}
+.newsletter .newskanan input[type=email] {margin: 8px 0; width: 70%; padding: 11px 20px; box-sizing: border-box; margin-right: 15px;}
+.newsletter .newskanan button[type=submit] {background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;}
+
+.popplaces {width: 1300px; text-align: center; padding: 100px;}
+.popplaces h6 {font-size: 30px; margin-top: 5px;}
+.popplaces p {font-size: 15px;}
+
+.tigakolom {width: 100%; height: 100px;}
+.foto img {width : 350px; height: 200px; margin-left: 20px;}
+.foto {position: relative; width: 400px; height: 250px; float: left; margin: 15px;}
+.foto .judul {position: absolute; width : 100px; height: auto; border-radius: 100px; 
+			 text-align: center; bottom : 27%; left: 6%; color: white;}
+.foto .nomor {position: absolute; width : 100px; height: auto; background-color: red; border-radius: 25px;
+			 text-align: center; bottom : 25%; left: 28%; color: white; padding: 6px;}
+
+.tigakolom .foto:hover {margin-top: 5px;}
+
+.video {position: relative;}
+.video img {width: 100%;}
+.video .pidio {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+.video .pidio {width: 150px; top: 40%; left: 47%; position: absolute;}
+.video .pidio a {text-decoration: none; color: white;}
+.video h1 {top: 30%; position: absolute; color: white; font-size: 50px; left: 43%;}
+
+.kolom {width: 1300px;}
+.kolom .kiri {width: 300px; float: left;}
+.kolom .tengah {width: 300px; float: left;}
+.kolom .kanan {width: 300px; float: left;}
+
+.popkolom {width: 1500px; overflow: hidden; margin: 80px 50px 50px 0;}
+.popkolom .text {background-color: #F9F9F9; height: 150px; margin-left: 32px; width: 367px;}
+.popkolom .foto {width: 400px; height: 250px; float: left; margin: 15px; padding-bottom: 100px;}
+.popkolom .nomor {top: 5%; bottom: 85%; left: 14%; padding: 5px;}
+.popkolom .foto .text h2 a {text-decoration: none;}
+
+.popplaces button[type=submit] {background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;}
+
+.kolom {width: 1300px; overflow:hidden; padding: 100px; padding-left: 230px; }
+.kolom .kiri img {width: 50px; height: 50px; float: left; margin-left: 130px;}
+.kolom .tengah img {width: 50px; height: 50px; float: left; margin-left: 130px;}
+.kolom .kanan img {width: 50px; height: 50px; float: left; margin-left: 130px;}
+.kolom .kiri {width:300px; float: left; text-align: center; margin-right: 50px;}
+.kolom .tengah {width:300px; float: left; text-align: center; margin-right: 50px;}
+.kolom .kanan {width:300px; float: left; text-align: center;}
+.kolom .kiri h3 {margin-top: 50px;}
+.kolom .tengah h3 {margin-top: 50px;}
+.kolom .kanan h3 {margin-top: 50px;}
+.kolom .foto .text h2 a {text-decoration: none;}
+
+.recentrips {width: 1300px; padding: 100px; margin-bottom: 200px;}
+.recentrips h6 {text-align: center; font-size: 40px; margin-bottom: 50px;}
+.recentrips .rtkiri {float: left; margin-right: 50px; margin-left: 180px; width: 300px;}
+.recentrips .rtengah {float: left; margin-right: 50px; width: 300px;}
+.recentrips .rtkanan {float: left; width: 300px;}
+.recentrips img {width: 300px; height: 200px;}
+.recentrips h5 {font-size: 20px; font-family: "Rubik", sans-serif; text-align: justify;}
+.recentrips h5 a {text-decoration: none;}
+
+footer {float: left; width: 100%; background-color: grey; padding: 10px;}
+footer .kopirek {text-align: center; width: 200px; padding: 50px; margin-left: 36%;}
+footer .footeratas .kolom1 {float: left; margin-right: 50px; width: 300px; height: 300px; padding: 10px;}
+footer .footeratas .kolom1 img {margin: 20px;}
+footer .footeratas .kolom1 p {margin-bottom: 10px; font-size: 20px;}
+footer .footeratas .kolom1 p a {text-decoration: none;}
+
+footer .footeratas .kolom2 {float: left; width: 300px; margin-left: 20px; padding: 20px; height: 300px;}
+footer .footeratas .kolom2 h5 {font-size: 30px; margin-bottom: 10px;}
+footer .footeratas .kolom2 p {font-size: 20px; margin-bottom: 10px;}
+footer .footeratas .kolom2 p a {text-decoration: none;}
+
+footer .footeratas .kolom3 {float: left; width: 200px; height: 300px; margin: 10px;}
+footer .footeratas .kolom3 h5 {font-size: 30px; margin-bottom: 10px;}
+footer .footeratas .kolom3 p {font-size: 20px; margin-bottom: 5px;}
+footer .footeratas .kolom3 p a {text-decoration: none;}
+
+footer .footeratas .kolom4 { width: 400px; float: left;}
+footer .footeratas .kolom4 img {width: 70px; float: left; height: 70px; margin: 20px;}
+footer .footeratas .kolom4 h5 {font-size: 30px;}
+
